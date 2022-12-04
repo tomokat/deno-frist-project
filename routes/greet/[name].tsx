@@ -4,7 +4,7 @@ export default function GreetPage(props: PageProps) {
   const { name } = props.params;
   return (
     <main>
-      <p>Greetings to you, {name}!</p>
+      <p>Greetings to you (from deployed site), {name}!</p>
     </main>
   );
 }
